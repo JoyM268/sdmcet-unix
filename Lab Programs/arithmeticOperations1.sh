@@ -1,5 +1,5 @@
 #!/bash/bin
-#arithmeticOperations.sh: Program to perform addition, division, multiplication and subtraction on two integers
+#arithmeticOperations1.sh: Program to perform addition, division, multiplication and subtraction on two integers
 echo -e "Enter two integers: \c "
 read num1 num2
 sum=`expr $num1 + $num2`
