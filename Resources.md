@@ -7,4 +7,10 @@
 - [Bash Scripting Tutorial for Beginners - freeCodeCamp.org](https://youtu.be/tK9Oc6AEnR4?feature=shared)
 
 ## Documentation:
-- [Bash Reference Manual - gnu.org](https://www.gnu.org/software/bash/manual/bash.html)
+- [Bash documentation - DevDocs](https://devdocs.io/bash/)
+- [Bash Reference Manual - GNU](https://www.gnu.org/software/bash/manual/bash.html)
+
+## Articles:
+- [Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners - freeCodeCamp](https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/)
+- [Bash Scripting – Introduction to Bash and Bash Scripting - GFG](https://geeksforgeeks.org/bash-scripting-introduction-to-bash-and-bash-scripting/)
+- [Introduction to Linux Shell and Shell Scripting - GFG](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/)
