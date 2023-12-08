@@ -6,7 +6,7 @@ do
 	if [ -d $i ] 
 	then 
 		echo "Large filename size is" 
-		echo `ls -Rl $1 | grep "^-" | tr -s ' ' | cut -d' ' -f 5,9 | sort -n | tail -1` 
+		echo `ls -Rl $i | grep "^-" | tr -s ' ' | cut -d' ' -f 5,9 | sort -n | tail -1` 
 	else 
 		echo "Not directory" 
 	fi 
