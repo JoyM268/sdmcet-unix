@@ -4,10 +4,10 @@ echo -e "Enter a number: \c "
 read num
 if [ $num -eq 0 ]
 then
-	echo "Number is zero"
+    echo "Number is zero"
 elif [ $num -gt 0 ]
 then
-	echo "Number is positive"
+    echo "Number is positive"
 else
-	echo "Number is negative"
+    echo "Number is negative"
 fi
