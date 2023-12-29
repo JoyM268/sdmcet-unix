@@ -7,4 +7,4 @@ else
     ls -l $1 > t1 
     x=`cut -c 33- t1` 
     echo $x 
-fi
+fi 
