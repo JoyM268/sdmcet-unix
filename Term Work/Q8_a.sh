@@ -1,6 +1,6 @@
 #!/bin/bash
 # Write a shell script that determine the period for which a specified user is working on system and display appropriate message. 
-system and display appropriate message. 
+#system and display appropriate message. 
 echo "Enter the login name of a user" 
 read name 
 userinfo=`who | grep -w "$name" | grep "pts"` 
