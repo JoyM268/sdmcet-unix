@@ -2,8 +2,7 @@
 #Q7_a.sh:Write a shell script that gets executed displays the message either "Good Morning" or "Good Afternoon" or "Good Evening" depending upon time 
 #at which the user logs in.
 hournow=`date | cut -c 12-13` 
-echo $hournow 
-user=`echo $LOGNAME | cut -d "/" -f 2` 
+echo $hournow  
 echo $LOGNAME 
 case $hournow in 
     [0-1][0-1]|0[2-9])echo "good morning Mr/Ms: $LOGNAME";; 
