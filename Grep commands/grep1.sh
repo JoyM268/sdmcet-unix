@@ -1,2 +1,2 @@
-#Script to print first five rows in database emp.txt
+#Script to print first five records in database emp.txt
 head -n 5 emp.txt

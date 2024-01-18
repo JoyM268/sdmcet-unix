@@ -1,2 +1,2 @@
-#Script to print last five rows in database emp.txt
+#Script to print last five records in database emp.txt
 tail -n 5 emp.txt

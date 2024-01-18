@@ -1,2 +1,2 @@
-#Script to sort the database emp.txt based on the salary in ascending order
+#Script to sort all record with respect to salary
 sort -t'|' -nk 6 emp.txt
