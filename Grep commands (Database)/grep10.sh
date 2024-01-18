@@ -1,2 +1,2 @@
-#Script to display the files containing the word director
+#Script to display the text files containing the word director
 grep -l "director" *.txt
