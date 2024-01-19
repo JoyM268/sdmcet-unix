@@ -1,2 +1,2 @@
-#AWK command to print details if the person is director or chairman from the emp.txt file
+#AWK command to print details if the person is director or chairman from the emp.txt file using printf
 awk -F "|" '$3 == " director " || $3 == " chairman " { printf "%-20s %-12s %d\n", $2, $3, $6 }' emp.txt
