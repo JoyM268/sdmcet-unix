@@ -1,2 +1,2 @@
-#AWk command to display the lines whose length is greater 15
-awk 'length($0) > 15{print}' emp.txt
+#AWK command to print column 1,2,6 of the directors in the database(emp.txt)
+awk '/director/{print $1, $2, $6}' emp.txt
