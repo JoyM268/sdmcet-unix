@@ -1,2 +1,2 @@
-#AWK command to find the number of lines in database
-awk 'END{print NR}' emp.txt
+#AWK script to print lines consisting the pattern saksena or saxena in the database
+awk -F"|" '/sa[kx]s*ena/' emp.txt

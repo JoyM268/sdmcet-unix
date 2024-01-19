@@ -1,2 +1,2 @@
-#AWK command to print all the lines in the given range(3 to 5) in database
-awk 'NR==3, NR==5{print}' emp.txt
+#AWK command to print columns 2, 3, 6 only if the number of columns is less than or equal to 6
+awk -F"|" 'NF <= 6 {print $2, $3, $6}' emp.txt
